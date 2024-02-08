@@ -8,6 +8,8 @@ To run
 `
 python Asformer/main.py --action=train --dataset=50salads/gtea/breakfast --split=1/2/3/4/5
 `
+
+
 `
 python main.py --action=train --dataset=50salads --split=1
 `
