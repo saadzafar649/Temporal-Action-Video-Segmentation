@@ -9,13 +9,27 @@ To run
 python Asformer/main.py --action=train --dataset=50salads/gtea/breakfast --split=1/2/3/4/5
 `
 
-
+To train
 `
 python main.py --action=train --dataset=50salads --split=1
 `
 
 
+To predict
+`
+python main.py --action=predict --dataset=50salads --split=1
+`
 
+
+
+
+To test
+`
+python main.py --action=test --dataset=50salads --split=1
+`
+
+
+To eval
 `
 python eval.py --dataset=50salads --split=0
 `
