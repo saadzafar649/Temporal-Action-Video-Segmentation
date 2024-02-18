@@ -13,3 +13,9 @@ python Asformer/main.py --action=train --dataset=50salads/gtea/breakfast --split
 `
 python main.py --action=train --dataset=50salads --split=1
 `
+
+
+
+`
+python eval.py --dataset=50salads --split=0
+`
